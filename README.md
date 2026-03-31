@@ -1,4 +1,3 @@
-<br>
 
 # Diff-VS
 
