@@ -218,6 +218,62 @@ Ongoing work on Diff-VS v2 can achieve on par results with BS-RoFormer and SCNet
 <br>
 <br>
 
+## Listening Samples
+
+Listening samples are randomly chosen from MUSDB test set
+
+#### Little Chicago's Finest - My Own (**SDR 15.41**)
+
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <audio controls src="./assets/audio/v2/Little Chicago's Finest - My Own.wav"></audio>
+    </div>
+  </div>
+</div>
+
+#### PR - Happy Daze (**SDR -0.58**)
+
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <audio controls src="./assets/audio/v2/PR - Happy Daze.wav"></audio>
+    </div>
+  </div>
+</div>
+
+#### The Long Wait - Dark Horses (**SDR 11.62**)
+
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <audio controls src="./assets/audio/v2/The Long Wait - Dark Horses.wav"></audio>
+    </div>
+  </div>
+</div>
+
+#### Timboz - Pony (**SDR 5.2**)
+
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <audio controls src="./assets/audio/v2/Timboz - Pony.wav"></audio>
+    </div>
+  </div>
+</div>
+
+#### We Fell From The Sky - Not You (**SDR 8.44**)
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <audio controls src="./assets/audio/v2/We Fell From The Sky - Not You.wav"></audio>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
 ## Reference
 [1] Bereuter, Paul A., et al., "Towards Reliable Objective Evaluation Metrics for Generative Singing Voice Separation Models", IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2025.
 
