@@ -95,7 +95,7 @@ Ongoing work on Diff-VS v2 can achieve on par results with BS-RoFormer and SCNet
 ### Train and evaluate on MUSDB
 
 | Model          | Type | Params | cSDR   | 
-|:-------------  |:-----:|:------: |------ :|
+|:-------------  |:-----|:------ |:------|
 | SCNet-L        | disc | 42 M   | 10.86  |
 | BS-RoFormer-12L| disc | 93 M   | 11.49  |
 | Mel-Roformer   | disc | 105 M   | 12.08  |
