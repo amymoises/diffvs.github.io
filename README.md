@@ -49,37 +49,146 @@ We use MERT-MSE as our proxy subjective metrics [1]
 
 ## Listening Samples
 
-Separated stems from MUSDB
+Listening samples are randomly chosen from MUSDB test set
 
-- Enda Reilly - Cur An Long Ag Seol (**SDR 17.01**)
-<div class="audio-row">
-<audio controls><source src="./assets/audio/v1/Enda Reilly - Cur An Long Ag Seol.wav" type="audio/wav"></audio> 
+#### Little Chicago's Finest - My Own (**SDR 15.41**)
+
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <div>Mixture</div>
+      <audio controls src="./assets/audio/groundtruth/Little Chicago's Finest - My Own_mix.wav"></audio>
+    </div>
+    <div>
+      <div>Clean Vocals</div>
+      <audio controls src="./assets/audio/groundtruth/Little Chicago's Finest - My Own_vocals.wav"></audio>
+    </div>
+    <div>
+      <div>Diff-VS</div>
+      <audio controls src="./assets/audio/v1/Little Chicago's Finest - My Own.wav"></audio>
+    </div>
+    <div>
+      <div>Demucs</div>
+      <audio controls src="./assets/audio/demucs/Little Chicago's Finest - My Own.wav"></audio>
+    </div>
+    <div>
+      <div>SCNet</div>
+      <audio controls src="./assets/audio/scnet/Little Chicago's Finest - My Own.wav"></audio>
+    </div>
+  </div>
 </div>
 
-- Little Chicago's Finest - My Own (**SDR 15.41**)
-<div class="audio-row">
-<audio controls><source src="./assets/audio/v1/Little Chicago's Finest - My Own.wav" type="audio/wav"></audio> 
+
+#### PR - Happy Daze (**SDR -0.58**)
+
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <div>Mixture</div>
+      <audio controls src="./assets/audio/groundtruth/PR - Happy Daze_mix.wav"></audio>
+    </div>
+    <div>
+      <div>Clean Vocals</div>
+      <audio controls src="./assets/audio/groundtruth/PR - Happy Daze_vocals.wav"></audio>
+    </div>
+    <div>
+      <div>Diff-VS</div>
+      <audio controls src="./assets/audio/v1/PR - Happy Daze.wav"></audio>
+    </div>
+    <div>
+      <div>Demucs</div>
+      <audio controls src="./assets/audio/demucs/PR - Happy Daze.wav"></audio>
+    </div>
+    <div>
+      <div>SCNet</div>
+      <audio controls src="./assets/audio/scnet/PR - Happy Daze.wav"></audio>
+    </div>
+  </div>
 </div>
 
-- PR - Happy Daze (**SDR -0.58**)
-<div class="audio-row">
-<audio controls><source src="./assets/audio/v1/PR - Happy Daze.wav" type="audio/wav"></audio> 
+
+#### The Long Wait - Dark Horses (**SDR 11.62**)
+
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <div>Mixture</div>
+      <audio controls src="./assets/audio/groundtruth/The Long Wait - Dark Horses_mix.wav"></audio>
+    </div>
+    <div>
+      <div>Clean Vocals</div>
+      <audio controls src="./assets/audio/groundtruth/The Long Wait - Dark Horses_vocals.wav"></audio>
+    </div>
+    <div>
+      <div>Diff-VS</div>
+      <audio controls src="./assets/audio/v1/The Long Wait - Dark Horses.wav"></audio>
+    </div>
+    <div>
+      <div>Demucs</div>
+      <audio controls src="./assets/audio/demucs/The Long Wait - Dark Horses.wav"></audio>
+    </div>
+    <div>
+      <div>SCNet</div>
+      <audio controls src="./assets/audio/scnet/The Long Wait - Dark Horses.wav"></audio>
+    </div>
+  </div>
 </div>
 
-- The Long Wait - Dark Horses (**SDR 11.62**)
-<div class="audio-row">
-<audio controls><source src="./assets/audio/v1/The Long Wait - Dark Horses.wav" type="audio/wav"></audio> 
+
+#### Timboz - Pony (**SDR 5.2**)
+
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <div>Mixture</div>
+      <audio controls src="./assets/audio/groundtruth/Timboz - Pony_mix.wav"></audio>
+    </div>
+    <div>
+      <div>Clean Vocals</div>
+      <audio controls src="./assets/audio/groundtruth/Timboz - Pony_vocals.wav"></audio>
+    </div>
+    <div>
+      <div>Diff-VS</div>
+      <audio controls src="./assets/audio/v1/Timboz - Pony.wav"></audio>
+    </div>
+    <div>
+      <div>Demucs</div>
+      <audio controls src="./assets/audio/demucs/Timboz - Pony.wav"></audio>
+    </div>
+    <div>
+      <div>SCNet</div>
+      <audio controls src="./assets/audio/scnet/Timboz - Pony.wav"></audio>
+    </div>
+  </div>
 </div>
 
-- Timboz - Pony (**SDR 5.2**)
-<div class="audio-row">
-<audio controls><source src="./assets/audio/v1/Timboz - Pony.wav" type="audio/wav"></audio> 
+#### We Fell From The Sky - Not You (**SDR 8.44**)
+
+<div style="overflow-x: auto; width: 100%;" class="audio-row">
+  <div style="display: flex; gap: 16px; min-width: max-content;">
+    <div>
+      <div>Mixture</div>
+      <audio controls src="./assets/audio/groundtruth/We Fell From The Sky - Not You_mix.wav"></audio>
+    </div>
+    <div>
+      <div>Clean Vocals</div>
+      <audio controls src="./assets/audio/groundtruth/We Fell From The Sky - Not You_vocals.wav"></audio>
+    </div>
+    <div>
+      <div>Diff-VS</div>
+      <audio controls src="./assets/audio/v1/We Fell From The Sky - Not You.wav"></audio>
+    </div>
+    <div>
+      <div>Demucs</div>
+      <audio controls src="./assets/audio/demucs/We Fell From The Sky - Not You.wav"></audio>
+    </div>
+    <div>
+      <div>SCNet</div>
+      <audio controls src="./assets/audio/scnet/We Fell From The Sky - Not You.wav"></audio>
+    </div>
+  </div>
 </div>
 
-- We Fell From The Sky - Not You (**SDR 8.44**)
-<div class="audio-row">
-<audio controls><source src="./assets/audio/v1/We Fell From The Sky - Not You.wav" type="audio/wav"></audio> 
-</div>
 
 <br>
 <br>
