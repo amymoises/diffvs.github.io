@@ -20,7 +20,6 @@
 | BSRNN          | disc | 37 M   | 10.01  |
 | BS-RoFormer-6L | disc | 72 M   | 10.66  |
 | SCNet-L        | disc | 42 M   | 10.86  |
-|:-------------  |:-----|:------ |:------ |
 | <span class="highlight-word">Diff-VS</span>     | <span class="highlight-word">gen</span> | <span class="highlight-word">57 M</span>    | <span class="highlight-word">10.12</span>  |
 
 
@@ -30,7 +29,6 @@
 |:-------------  |:-----|:------ |:------ |
 | SCNet-L        | disc | 42 M   | 11.11  |
 | SGMSEVS        | gen  | 65 M   | 8.63   |
-|:-------------  |:-----|:------ |:------ |
 |<span class="highlight-word">Diff-VS</span>         |<span class="highlight-word">gen</span> |<span class="highlight-word">57 M</span>    | <span class="highlight-word">10.88</span>   |
 
 <br>
@@ -45,7 +43,6 @@ We use MERT-MSE as our proxy subjective metrics
 | SCNet-L        | disc | 42 M   | 0.096  |
 | SGMSEVS        | gen  | 65 M   | 0.089  |
 | Mel-Roformer。 | disc | 105 M   | 0.071  |
-|:-------------  |:-----|:------ |:------ |
 | <span class="highlight-word">Diff-VS V2</span> |<span class="highlight-word">gen</span> | <span class="highlight-word">54 M</span> |<span class="highlight-word">0.083</span> |
 
 <br>
@@ -99,7 +96,6 @@ Ongoing work on Diff-VS v2 can achieve on par results with BS-RoFormer and SCNet
 | SCNet-L        | disc | 42 M   | 10.86  |
 | BS-RoFormer-12L| disc | 93 M   | 11.49  |
 | Mel-Roformer   | disc | 105 M   | 12.08  |
-|:-------------  |:-----|:------ |:------ |
 |<span class="highlight-word">Diff-VS V2</span>        |<span class="highlight-word">gen</span>  | <span class="highlight-word">54 M</span>   |<span class="highlight-word">11.46</span>|
 
 ### Train with MoisesDB + MUSDB and evaluate on MUSDB
@@ -108,7 +104,6 @@ Ongoing work on Diff-VS v2 can achieve on par results with BS-RoFormer and SCNet
 |:-------------  |:-----|:------ |:------ |
 | SCNet-L        | disc | 42 M   | 11.11  |
 | SGMSEVS        | gen  | 65 M   | 8.63   |
-|:-------------  |:-----|:------ |:------ |
 | <span class="highlight-word">Diff-VS V2</span>| <span class="highlight-word">gen</span>  |<span class="highlight-word">54 M</span>| <span class="highlight-word">11.85</span>|
 
 
