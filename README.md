@@ -222,7 +222,7 @@ Ongoing work on Diff-VS v2 can achieve on par results with BS-RoFormer and SCNet
 
 Listening samples are randomly chosen from MUSDB test set
 
-#### Little Chicago's Finest - My Own (**SDR 15.41**)
+#### Little Chicago's Finest - My Own 
 
 <div style="overflow-x: auto; width: 100%;" class="audio-row">
   <div style="display: flex; gap: 16px; min-width: max-content;">
@@ -232,7 +232,7 @@ Listening samples are randomly chosen from MUSDB test set
   </div>
 </div>
 
-#### PR - Happy Daze (**SDR -0.58**)
+#### PR - Happy Daze 
 
 <div style="overflow-x: auto; width: 100%;" class="audio-row">
   <div style="display: flex; gap: 16px; min-width: max-content;">
@@ -242,7 +242,7 @@ Listening samples are randomly chosen from MUSDB test set
   </div>
 </div>
 
-#### The Long Wait - Dark Horses (**SDR 11.62**)
+#### The Long Wait - Dark Horses 
 
 <div style="overflow-x: auto; width: 100%;" class="audio-row">
   <div style="display: flex; gap: 16px; min-width: max-content;">
@@ -252,7 +252,7 @@ Listening samples are randomly chosen from MUSDB test set
   </div>
 </div>
 
-#### Timboz - Pony (**SDR 5.2**)
+#### Timboz - Pony 
 
 <div style="overflow-x: auto; width: 100%;" class="audio-row">
   <div style="display: flex; gap: 16px; min-width: max-content;">
@@ -262,7 +262,7 @@ Listening samples are randomly chosen from MUSDB test set
   </div>
 </div>
 
-#### We Fell From The Sky - Not You (**SDR 8.44**)
+#### We Fell From The Sky - Not You 
 <div style="overflow-x: auto; width: 100%;" class="audio-row">
   <div style="display: flex; gap: 16px; min-width: max-content;">
     <div>
