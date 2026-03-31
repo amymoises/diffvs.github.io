@@ -12,22 +12,22 @@
 
 ### Train and evaluate on MUSDB
 
-| Model          | Type | Params | cSDR   | 
+| Model          | Type | Params | cSDR ↑   | 
 |:-------------  |:-----|:------ |:------ |
-| HDemucs        | disc | 42 M   | 8.13   |
-| TFC-TDF V3     | disc | 70 M   | 9.59   |
-| BSRNN          | disc | 37 M   | 10.01  |
-| BS-RoFormer-6L | disc | 72 M   | 10.66  |
-| SCNet-L        | disc | 42 M   | 10.86  |
+| HDemucs [6]       | disc | 42 M   | 8.13   |
+| TFC-TDF V3 [7]    | disc | 70 M   | 9.59   |
+| BSRNN [5]         | disc | 37 M   | 10.01  |
+| BS-RoFormer-6L [3] | disc | 72 M   | 10.66  |
+| SCNet-L [2]       | disc | 42 M   | 10.86  |
 | <span class="highlight-word">Diff-VS</span>     | <span class="highlight-word">gen</span> | <span class="highlight-word">57 M</span>    | <span class="highlight-word">10.12</span>  |
 
 
 ### Train on MUSDB + MoisesDB and evaluate on MUSDB
 
-| Model          | Type | Params | cSDR   | 
+| Model          | Type | Params | cSDR ↑   | 
 |:-------------  |:-----|:------ |:------ |
-| SCNet-L        | disc | 42 M   | 11.11  |
-| SGMSEVS        | gen  | 65 M   | 8.63   |
+| SCNet-L [2]       | disc | 42 M   | 11.11  |
+| SGMSEVS  [1]      | gen  | 65 M   | 8.63   |
 |<span class="highlight-word">Diff-VS</span>         |<span class="highlight-word">gen</span> |<span class="highlight-word">57 M</span>    | <span class="highlight-word">10.88</span>   |
 
 <br>
@@ -35,13 +35,13 @@
 
 ## Subjective Evaluation
 
-We use MERT-MSE as our proxy subjective metrics
+We use MERT-MSE as our proxy subjective metrics [1]
 
 | Model          | Type | Params | MERT MSE ↓ | 
 |:-------------  |:-----|:------ |:------ |
-| SCNet-L        | disc | 42 M   | 0.096  |
-| SGMSEVS        | gen  | 65 M   | 0.089  |
-| Mel-Roformer。 | disc | 105 M   | 0.071  |
+| SCNet-L [2]       | disc | 42 M   | 0.096  |
+| SGMSEVS  [1]      | gen  | 65 M   | 0.089  |
+| Mel-Roformer [3] | disc | 105 M   | 0.071  |
 | <span class="highlight-word">Diff-VS V2</span> |<span class="highlight-word">gen</span> | <span class="highlight-word">54 M</span> |<span class="highlight-word">0.083</span> |
 
 <br>
@@ -90,19 +90,36 @@ Ongoing work on Diff-VS v2 can achieve on par results with BS-RoFormer and SCNet
 
 ### Train and evaluate on MUSDB
 
-| Model          | Type | Params | cSDR   | 
+| Model          | Type | Params | cSDR ↑  | 
 |:-------------  |:-----|:------ |:------|
-| SCNet-L        | disc | 42 M   | 10.86  |
-| BS-RoFormer-12L| disc | 93 M   | 11.49  |
-| Mel-Roformer   | disc | 105 M   | 12.08  |
+| SCNet-L [2]       | disc | 42 M   | 10.86  |
+| BS-RoFormer-12L [3]| disc | 93 M   | 11.49  |
+| Mel-Roformer [4]  | disc | 105 M   | 12.08  |
 |<span class="highlight-word">Diff-VS V2</span>        |<span class="highlight-word">gen</span>  | <span class="highlight-word">54 M</span>   |<span class="highlight-word">11.46</span>|
 
 ### Train with MoisesDB + MUSDB and evaluate on MUSDB
 
-| Model          | Type | Params | cSDR   | 
+| Model          | Type | Params | cSDR ↑   | 
 |:-------------  |:-----|:------ |:------ |
-| SCNet-L        | disc | 42 M   | 11.11  |
-| SGMSEVS        | gen  | 65 M   | 8.63   |
+| SCNet-L [2]       | disc | 42 M   | 11.11  |
+| SGMSEVS [1]       | gen  | 65 M   | 8.63   |
 | <span class="highlight-word">Diff-VS V2</span>| <span class="highlight-word">gen</span>  |<span class="highlight-word">54 M</span>| <span class="highlight-word">11.85</span>|
 
 
+<br>
+<br>
+
+## Reference
+[1] Bereuter, Paul A., et al., "Towards Reliable Objective Evaluation Metrics for Generative Singing Voice Separation Models", IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2025.
+
+[2] Tong, Weinan, et al. "Scnet: Sparse compression network for music source separation.", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024.
+
+[3] Lu, Wei-Tsung, et al. "Music source separation with band-split rope transformer.", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024.
+
+[4] Wang, Ju-Chiang, Wei-Tsung Lu, and Minz Won. "Mel-band roformer for music source separation." arXiv preprint arXiv:2310.01809.
+
+[5] Luo, Yi, and Jianwei Yu. "Music source separation with band-split RNN." IEEE/ACM Transactions on Audio, Speech, and Language Processing 31 (2023): 1893-1901.
+
+[6] Rouard, Simon, Francisco Massa, and Alexandre Défossez. "Hybrid transformers for music source separation.", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023.
+
+[7] Kim, Minseok, Jun Hyung Lee, and Soonyoung Jung. "Sound demixing challenge 2023 music demixing track technical report: Tfc-tdf-unet v3." arXiv preprint arXiv:2306.09382 (2023).
