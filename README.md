@@ -215,12 +215,6 @@ Ongoing work on Diff-VS v2 can achieve on par results with BS-RoFormer and SCNet
 | <span class="highlight-word">Diff-VS V2</span>| <span class="highlight-word">gen</span>  |<span class="highlight-word">54 M</span>| <span class="highlight-word">11.85</span>|
 
 
-<br>
-<br>
-
-## Listening Samples
-
-Listening samples are randomly chosen from MUSDB test set
 
 #### Little Chicago's Finest - My Own 
 
